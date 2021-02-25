@@ -355,6 +355,10 @@ input, select, textarea {
 			width: 33.33333%;
 		}
 
+		.row > .col-cust{
+			width: 20%;
+		}
+
 		.row > .off-4 {
 			margin-left: 33.33333%;
 		}
@@ -1637,6 +1641,12 @@ input, select, textarea {
 			width: 100%;
 		}
 
+		.image.profile{
+			width: 100%;
+			background-size: cover;
+    		background-position: 100% 70%;
+		}
+
 		.image.featured {
 			display: block;
 			width: 100%;
@@ -1937,6 +1947,56 @@ input, select, textarea {
 			width: auto;
 		}
 
+		.htmllogo-80 {
+			width: 80px;
+		}
+		.htmllogo-78 {
+			width: 78px;
+		}
+		.htmllogo-75 {
+			width: 75px;
+		}
+		.htmllogo-73 {
+			width: 73px;
+		}
+		.htmllogo-56 {
+			width: 56px;
+		}
+
+		.htmllogo-rails {
+			width: 110px;
+			height: 75px;
+			/* margin-bottom: 15px; */
+		}
+		.htmllogo-aws {
+			width: 80px;
+			height: 80px;
+			/* margin-bottom: 15px; */
+		}
+
+		.htmlicon {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			/* padding-left: 20px;
+			padding-right: 50px; */
+			/* background-color: wheat; */
+			/* margin: 5px; */
+		}
+
+		.project-title {
+			text-decoration: none;
+			font-weight: 700;
+			color: #3e3e3e;
+			color: inherit;
+			font-size: 1.3em;
+			letter-spacing: -0.015em;
+		}
+
+		.pd-2{
+			padding: 1px 2px;
+		}
+
 /* Icons */
 
 	.icon {
@@ -2117,7 +2177,8 @@ input, select, textarea {
 		}
 
 			#top .image img {
-				border-radius: 100%;
+				/* border-radius: 100%; */
+				border-radius: 12%;
 			}
 
 		#top h1 {
